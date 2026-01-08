@@ -1,0 +1,19 @@
+*.class
+*.log
+.DS_STORE
+target/
+project/project/
+project/target/
+logs/
+.bsp/
+
+# Metals (Scala language server)
+.metals/
+.bloop/
+metals.sbt
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+

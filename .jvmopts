@@ -1,0 +1,2 @@
+-Djava.net.preferIPv4Stack=true
+-Xmx512M

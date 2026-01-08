@@ -160,11 +160,10 @@ src/main/scala/com/example/
 
 ### API Flow
 
-See: 
+For implementation details and logic flow see:
+
     - https://www.weather.gov/documentation/services-web-api
     - https://weather-gov.github.io/api/general-faqs
-
-~ for implementation details and logic flow
 
 
 1. Client requests `/weather?lat=X&lon=Y`

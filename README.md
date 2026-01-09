@@ -4,6 +4,14 @@ A simple HTTP server that provides weather forecasts using the National Weather 
 This project is based on Gitter ScalaConsultants standard: https://github.com/ScalaConsultants/zio-scala3-quickstart.g8/tree/master
 Following ZIO documentation: https://zio.dev/guides/quickstarts/restful-webservice
 
+Exercise: 
+  Write an HTTP server that serves the forecasted weather. Your server should expose an endpoint that:
+  
+  - Accepts latitude and longitude coordinates
+  - Returns the short forecast for that area for Today (“Partly Cloudy” etc)
+  - Returns a characterization of whether the temperature is “hot”, “cold”, or “moderate” (use your discretion on mapping temperatures to each type)
+  - Use the National Weather Service API Web Service as a data source.
+
 ## Features
 
 - **GET /weather?lat={latitude}&lon={longitude}** - Returns weather forecast for given coordinates
